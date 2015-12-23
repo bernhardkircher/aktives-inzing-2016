@@ -1,0 +1,80 @@
+h1, h2, h3 {
+    color: #3C3C3B;
+}
+
+.background {
+	background-image: url(../images/border.png);
+	background-position: right top; 
+	background-repeat: repeat-y;
+	padding-right: 80px;
+}
+
+/* for small devices: set padding same as on left side and no backround iamge, so we have mor space for content... */
+@media (max-width: 768px) {
+  .background {
+	 background: transparent;
+     padding-right: 15px;
+  }
+}
+
+.logo-container {
+	
+}
+.logo-container > div{
+	padding-bottom: 5px;
+}
+
+.logo-container img {
+	display: block; margin-left: auto; margin-right: auto;
+}
+
+.separator-bottom {
+	margin-bottom: 15px;
+}
+
+/* bootstrap overrides */
+.media-object{
+	border: 5px #DADADA solid;	
+}
+
+.noborder {
+	border: 0px;
+}
+
+.navbar-default {
+	background-color: #DADADA;
+	border-color: transparent;
+}
+
+
+
+.thumbnail {	
+	background: transparent;
+	padding-left: 0px;
+	border: 0px;	
+	margin-bottom: 0px;
+}
+
+.thumbnail > img {
+	margin-left: 0px;
+	border: 5px #DADADA solid;
+}
+
+
+
+.caption > h3 {
+	margin-top: 0px;
+}
+
+.thumbnail .caption {
+	padding-left: 0px ;
+}
+
+
+h1 > small {
+	line-height: 1.2em;
+}
+
+.jumbotron {
+	background-color: #DADADA;
+}
